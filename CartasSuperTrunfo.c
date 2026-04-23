@@ -30,7 +30,7 @@ int main() {
   scanf ("%f", &pib1);
   printf ("Informe o número de pontos turísticos da cidade: \n");
   scanf ("%d", &turismo1);
-
+  
     //Carta 2
   printf ("Informe os dados da segunda carta\n");
   printf ("Informe o nome do estado: \n");
@@ -50,20 +50,24 @@ int main() {
 
   // Área para exibição dos dados da cidade
   //Carta 1
-  printf ("Resultado da primeira carta");
+  printf ("Resultado da primeira carta \n");
   printf ("Estado: %s - Código: %s\n", estado1, codigo1);
   printf ("Cidade: %s - População: %d\n", cidade1, populacao1);
   printf ("Área: %.2f\n", area1);
   printf ("PIB: %.2f\n", pib1);
   printf ("Pontos Turísticos: %d\n", turismo1);
+  printf ("Densidade Populacional: %.2f\n", populacao1/area1); //float
+  printf ("PIB per capita: %.2f\n", pib1/populacao1); //float
 
   //Carta 2
-  printf ("Resultado da segunda carta");
+  printf ("Resultado da segunda carta \n");
   printf ("Estado: %s - Código: %s\n", estado2, codigo2);
   printf ("Cidade: %s - População: %d\n", cidade2, populacao2);
   printf ("Área: %.2f\n", area2);
   printf ("PIB: %.2f\n", pib2);
   printf ("Pontos Turísticos: %d\n", turismo2);
+  printf ("Densidade Populacional: %.2f\n", populacao2/area2); //float
+  printf ("PIB per capita: %.2f\n", pib2/populacao2); //float
   
 return 0;
 } 
