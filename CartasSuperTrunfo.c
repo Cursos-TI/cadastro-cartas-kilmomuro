@@ -83,8 +83,15 @@ int main() {
   printf ("PIB per capita: %.2f\n", pibperca2); //float
   printf ("Super Poder: %.2f\n", super2);
 
-  resultado = super1 > super2;
-  printf ("\nResultado: %d\n", resultado);
+  // Área para comparação das cartas
+  if ( super1 > super2)
+  {
+    printf ("\nA carta 1 é a vencedora!\n");
+  }
+  else (super1<super2);{
+    printf ("\nA carta 2 é a vencedora!\n");
+  }
+  
   
 return 0;
 } 
